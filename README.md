@@ -2,7 +2,7 @@
 
 Small sample project for Supertalk. You must download the latest version of the plugin at https://github.com/redxdev/Supertalk and place it in Plugins.
 
-This is only setup to work with UE5 but should work with UE4 with minor modifications to this project + Supertalk itself.
+This is only setup to work with UE5 but should work with UE4 with minor modifications to this project's code + Supertalk itself. You will need to create a new level and reimport starter content as UE4 is unable to open UE5 assets.
 
 This is a *very* simple sample project that doesn't implement any UI or anything - it simply prints out lines from the script via
 AddOnScreenDebugMessage.
