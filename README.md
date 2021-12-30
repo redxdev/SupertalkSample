@@ -11,4 +11,5 @@ AddOnScreenDebugMessage.
 
 Build the project, then run the Unreal Editor. Click play and watch the debug text at the top left (or the message log).
 
-All supertalk-relevant code is within ASampleSupertalkPlayer. The script that is being executed is 
+All supertalk-relevant code is within ASampleSupertalkPlayer. The script that is being executed is /Game/SampleScript, the source to which
+can be found in Content/SampleScript.sts.
