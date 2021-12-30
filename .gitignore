@@ -75,6 +75,7 @@ DerivedDataCache/*
 
 # Rider specific files
 .idea/
+Plugins/Developer/RiderLink/
 
 # Don't include Supertalk - it should be retrieved from github.com/redxdev/Supertalk
-Plugins/Supertalk
+Plugins/Supertalk/

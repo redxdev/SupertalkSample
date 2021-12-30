@@ -1,0 +1,27 @@
+PersonA = "Person A"
+PersonB = "Person B"
+
+PersonA: Hello, world!
+PersonB: Hello, {PersonA}!
+PersonA: Do you like cake or pie?
+* Pie
+  -> ChoosePie
+* Cake
+  -> ChooseCake
+
+# ChoosePie
+
+PersonA: You chose pie!
+-> End
+
+# ChooseCake
+
+PersonA: You chose cake!
+-> End
+
+# End
+
+PersonB: I'm now going to wait 2 seconds.
+> Wait 2
+PersonB: Done!
+PersonB: This is the end of the script, goodbye!
