@@ -120,9 +120,9 @@ void ASampleSupertalkPlayer::Wait(float Time)
 
 		// Set a timer and call the finalizer when it completes.
 		FTimerHandle Handle;
-        FTimerDelegate Delegate;
-        Delegate.BindWeakLambda(this, [Finalizer]() mutable { Finalizer.Complete(); });
-        GetWorldTimerManager().SetTimer(Handle, Delegate, Time, false);
+		FTimerDelegate Delegate;
+		Delegate.BindWeakLambda(this, [Finalizer]() mutable { Finalizer.Complete(); });
+		GetWorldTimerManager().SetTimer(Handle, Delegate, Time, false);
 	}
 
 	// If Time was <= 0 then we never call MakeLatentFunction and therefore this function completes immediately, not blocking further execution of the script.
